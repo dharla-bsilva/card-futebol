@@ -1,5 +1,8 @@
 h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-shadow: 2px 2px 4px #726868;
 }
 
 .avatar{
@@ -12,14 +15,20 @@ h2{
 }
 
 .cardJogador{
-    background-color: black;
+    background-color: rgb(14, 13, 13);
     height: 500px;
     width: 350px;
+    border-style:solid ;
+    border-width: 40px
+   
+   
     
 }
 
 .app{
     display: flex;
     gap: 30px;
+    
+
 
 }

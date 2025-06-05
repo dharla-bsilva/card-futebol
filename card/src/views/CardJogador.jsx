@@ -8,9 +8,9 @@ const CardJogador =  ({avatar,habilidades,nome,posicao}) => {
     return(
         
         <div className="cardJogador">
-            <Avatar avatar={avatar} />
-            <Infojogador nome={nome} posicao={posicao}/>
-            <Habilidade habilidades={habilidades}/>
+            <Avatar avatar ={avatar} />
+            <Infojogador nome ={nome} posicao ={posicao}/>
+            <Habilidade habilidades ={habilidades}/>
         </div>
     )
 }
