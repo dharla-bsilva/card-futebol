@@ -1,0 +1,25 @@
+h2{
+    color: white;
+}
+
+.avatar{
+    height: 200px;
+    align-items: center;
+    display: flex;
+    width: 350px;
+
+
+}
+
+.cardJogador{
+    background-color: black;
+    height: 500px;
+    width: 350px;
+    
+}
+
+.app{
+    display: flex;
+    gap: 30px;
+
+}

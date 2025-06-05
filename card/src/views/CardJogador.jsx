@@ -1,14 +1,18 @@
-import avatar from "../Components/Avatar"
-import habilidade from "../Components/Habilidade"
-import infojogador from "../Components/InfoJogador"
+import Avatar from "../Components/Avatar"
+import Habilidade from "../Components/Habilidade"
+import Infojogador from "../Components/InfoJogador"
 
 
 
-const CardJogador = ({avatar, habilidade, infojogador}) => {
+const CardJogador =  ({avatar,habilidades,nome,posicao}) => { 
     return(
         
-        <div>
-            
+        <div className="cardJogador">
+            <Avatar avatar={avatar} />
+            <Infojogador nome={nome} posicao={posicao}/>
+            <Habilidade habilidades={habilidades}/>
         </div>
     )
 }
+
+export default CardJogador;

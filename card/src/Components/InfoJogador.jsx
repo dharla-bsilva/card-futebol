@@ -1,5 +1,10 @@
-import avatar from "../Components/Avatar"
+const InfoJogador = ({nome,posicao}) => {
+    return (
+        <div>
+            <h2>Nome: {nome}</h2>
+            <h2>Posição:{posicao} </h2>
+        </div>
+    )
+}
 
-import habilidade from "../Components/Habilidade"
-import infojogador from "../Components/InfoJogador"
-
+export default InfoJogador ;

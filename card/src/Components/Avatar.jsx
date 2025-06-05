@@ -1,13 +1,11 @@
-import Avatar from '.src/images/avatar1.png'
-import Avatar from '.src/images/avatar2.png'
-import Avatar from '.src/images/avatar3.png'
 
 
-const avatar = ({imagemjogador}) => {
+
+const Avatar = ({avatar}) => {
     return(
-        <img src= {imagemjogador} className='avatar1'/>
+        <img src= {avatar} className='avatar'/>
     )
 }
 
-export default avatar;
+export default Avatar;
 
